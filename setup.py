@@ -8,10 +8,10 @@ setup(
     name='scikit_small_ensemble',
     version=__VERSION__,
     author='Stewart Park',
-    url='https://github.com/stewartpark/scikit_small_ensemble',
+    url='https://github.com/stewartpark/scikit-small-ensemble',
     author_email='hello@stewartjpark.com',
-    license='Proprietary',
+    license='MIT',
     install_requires=['lz4', 'joblib'],
     packages=find_packages(),
-    zip_safe=False,
+    zip_safe=False
 )
