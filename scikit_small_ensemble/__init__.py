@@ -1,8 +1,6 @@
 from __future__ import absolute_import
 from scikit_small_ensemble.scikit_ensemble import CompressedEstimators, DiskEstimators
 
-__VERSION__ = '0.0.1'
-
 
 def compress(model, ratio=0.5):
     if isinstance(model.estimators_, CompressedEstimators):

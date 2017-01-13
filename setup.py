@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='scikit-small-ensemble',
-    version=__VERSION__,
+    version='0.0.1',
     author='Stewart Park',
     url='https://github.com/stewartpark/scikit-small-ensemble',
     author_email='hello@stewartjpark.com',
