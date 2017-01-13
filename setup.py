@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from scikit_small_ensemble import __VERSION__
-
 from setuptools import find_packages, setup
 
 setup(
     name='scikit-small-ensemble',
-    version='0.0.1',
+    version='0.0.2',
     author='Stewart Park',
     url='https://github.com/stewartpark/scikit-small-ensemble',
     author_email='hello@stewartjpark.com',
