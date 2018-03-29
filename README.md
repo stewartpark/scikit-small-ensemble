@@ -7,7 +7,7 @@ scikit-small-ensemble is a library to make your ensemble models(Random Forest Cl
 Introduction
 ============
 
-Ensemble models can be very memory-intensive sometimes, for example, depending on the number of estimaters and its depths, if you think of a tree-based ensemble model. This library wraps each estimater and compress its contents in LZ4 unless it's used. It trades performance for reduced memory usage.
+Ensemble models can be very memory-intensive sometimes, for example, depending on the number of estimators and its depths, if you think of a tree-based ensemble model. This library wraps each estimator and compress its contents in LZ4 unless it's used. It trades performance for reduced memory usage.
 
 
 Installation
